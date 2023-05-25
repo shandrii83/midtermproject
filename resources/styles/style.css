@@ -29,29 +29,32 @@ body {
   
 }
 .header__content{
-  padding: 70px 170px 0px 170px ;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  
-
+  width: 80vw;
+  align-items: center;
+  margin: 75px auto;
 }
+
 .header__menu{
-  
+  /* width: inherit; */
  
-  /* width: 700px; */
+   /* width: 700px;  */
 
 }
 
 .menu__icon{
 }
 .menu__body {
+
+
 }
 .menu__list {
 list-style-type: none; 
-display: flex;
-/* justify-content: space-evenly; */
-
+display: flex; 
+ justify-content: space-evenly; 
+ 
 height: 22px;
 
 font-style: normal;
@@ -59,12 +62,12 @@ font-weight: 500;
 font-size: 17px;
 line-height: 130%;
 
-color: #6c718b;
+color: #6B708D;
 
 }
 .menu-link {
 text-decoration: none;
-
+margin: 0px 14px; 
 }
 /* burger menu */
 .icon-menu {
@@ -78,7 +81,7 @@ text-decoration: none;
   padding: 16px;
   text-decoration: none;
   display: flex;
-justify-content: center;
+justify-content: center; 
 align-items: center;
 width: 150px;
 height: 52px;
@@ -88,6 +91,12 @@ height: 52px;
   
   /*  font-weight: 300;
   font-size: normal;  */
+}
+.menu__body{
+  
+}
+.navbar{
+  margin: 0px 14px;
 }
 
 /*------------------------------------------------------------------------ */
