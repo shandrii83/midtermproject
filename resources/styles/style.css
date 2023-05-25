@@ -35,6 +35,7 @@ body {
   width: 80vw;
   align-items: center;
   margin: 75px auto;
+  width: 1100px;
 }
 
 .header__menu{
@@ -45,6 +46,7 @@ body {
 }
 
 .menu__icon{
+  position: static;
 }
 .menu__body {
 
@@ -98,9 +100,141 @@ height: 52px;
 .navbar{
   margin: 0px 14px;
 }
+.clients{
+width: 1100px;
+height: 96px;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
 
-/*------------------------------------------------------------------------ */
+}
+.clients div{
+  width: 150px;
+  text-align: center;
+ 
+}
+.title{
+  margin: 100px 0 75px 0;
+}
+.title h2 {
+  font-size: 2.5rem;
+}
+.projects-container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 25px;
+  grid-row-gap: 0px;
+  background-color:white;
+ 
+}
+.project{
+  
+width: 340px;
+height: 444px;
+left: 170px;
+top: 117px;
+overflow: hidden;
 
+
+}
+.pageContainer{
+  margin: 170px;
+
+ 
+}
+
+.project img{
+width: 340px;
+height: 240px;
+}
+.opinion{
+  height: 622px;
+  background-color: #292e47;
+  background-image: url(/resources/images/testimonial-section/orbit.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 150px;
+  max-width: 1320px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+}
+.opinion h2{
+  color: white;
+  font-size: 2.1rem;
+}
+.opinion p{
+  width: 55%;
+  color: gold;
+  font-size: 1.7rem;
+}
+.AutorDeOpinion{
+    display: flex;
+  align-items: center;
+}
+.AutorDeOpinion h4{
+  color: #A2D6F9;;
+}
+.AutorDeOpinion h5{
+  color: #F4F6FC;
+
+}
+.AutorDeOpinion img{
+width: 50px;
+height: 50px;
+
+ /*  background-size: 100%;
+  background-position: hiden; */
+/*   position:absolute;
+top:452px;
+left: 50%; */
+/* transform: translate(-50%, -50%); */
+/* max-height: 100%;
+max-width: 100%;
+} */
+/* width: 50px;
+height: 50px; */
+}
+.memoji-2 {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  right: 10%;
+  top: 10%;
+  left: auto;
+  bottom: auto;
+}
+.memoji-4 {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  right: 10%;
+  bottom: 10%;
+  left: auto;
+  top: auto;
+}
+.memoji-3 {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  left: 10%;
+  bottom: 10%;
+  right: auto;
+  top: auto;
+}
+.memoji-1 {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  left: 10%;
+  top: 10%;
+  right: auto;
+  bottom: auto;
+}
 /* ------------------------------ Splash page ------------------------------ */
 
 /* Your CSS code goes here */
