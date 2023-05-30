@@ -39,9 +39,6 @@ body {
 }
 
 .header__menu{
-  /* width: inherit; */
- 
-   /* width: 700px;  */
 
 }
 
@@ -152,7 +149,7 @@ height: 240px;
   height: 622px;
   background-color: #292e47;
   background-image: url(/resources/images/testimonial-section/orbit.png);
-  background-size: cover;
+  background-size: 91%;
   background-repeat: no-repeat;
   margin-top: 150px;
   max-width: 1320px;
@@ -162,7 +159,13 @@ height: 240px;
   justify-content: space-around;
   align-items: center;
   position: relative;
+background-position: 60%;
+margin-inline: -110px;
+width: 1320px;
+padding: 90px;
+
 }
+
 .opinion h2{
   color: white;
   font-size: 2.1rem;
@@ -173,9 +176,12 @@ height: 240px;
   font-size: 1.7rem;
 }
 .AutorDeOpinion{
-    display: flex;
+  
+     display: flex;
   align-items: center;
-}
+  position: absolute;
+  bottom: 100px;
+} 
 .AutorDeOpinion h4{
   color: #A2D6F9;;
 }
@@ -184,20 +190,10 @@ height: 240px;
 
 }
 .AutorDeOpinion img{
-width: 50px;
-height: 50px;
-
- /*  background-size: 100%;
-  background-position: hiden; */
-/*   position:absolute;
-top:452px;
-left: 50%; */
-/* transform: translate(-50%, -50%); */
-/* max-height: 100%;
-max-width: 100%;
-} */
-/* width: 50px;
-height: 50px; */
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  margin-right: 10px;
 }
 .memoji-2 {
   width: 150px;
@@ -248,9 +244,51 @@ height: 50px; */
 /* Your CSS code goes here */
 
 /* ------------------------------ Header ------------------------------ */
+.heroImage{
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-between;
+}
 
-/* Your CSS code goes here */
-
+.herosection{
+  margin: 0 170px;
+}
+.imageHero{
+  background-image: url(/resources/images/hero-section/hero-image.png);
+  background-repeat: no-repeat;
+width: 508px;
+height: 632px;
+background-size: 100%;
+overflow: hidden;
+}
+.cards{
+  height: 193px;
+  width: 190px;
+}
+.card1{
+  position: absolute;
+width: 190px;
+height: 216px;
+left: 700px;
+top: 25px;
+}
+.contentHero{
+  width: 530px;
+  height: 422px;
+}
+.contentHero h1{
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 70px;
+  color: #292E47;
+}
+.parafoHero{
+  font-weight: 400;
+font-size: 20px;
+line-height: 150%;
+color: #6B708D;
+}
 /* ------------------------------ Partners ------------------------------ */
 
 /* Your CSS code goes here */
@@ -264,9 +302,92 @@ height: 50px; */
 /* Your CSS code goes here */
 
 /* ------------------------------ Services ------------------------------ */
+#servises{
+  position: absolute;
+width: 1100px;
+height: 497px;
 
-/* Your CSS code goes here */
+}
+.titleServises{
+ margin: 100px 0px 75px 0px;
+}
+.services-section{
+  display: flex;
+  justify-content: space-around;
+width: 1100px;
+height: 380px;
 
+}
+.service{
+background-color: #FFFFFF;
+display: grid;
+align-content: space-between;
+padding-bottom: 20px;
+width: 340px;
+height: 380px;
+}
+
+#campo1{
+  background-image: url(/resources/images/services-section/icons/1.svg);
+  background-size: cover;
+  background-position:center;
+  background-repeat: no-repeat;
+    height: 80px;
+  width: 80px;
+position: relative;
+  left: 30px;
+  top: 40px;
+}
+#campo2{
+  background-image: url(/resources/images/services-section/icons/2.svg);
+  background-size: cover;
+  background-position:center;
+  background-repeat: no-repeat;
+  height: 80px;
+  width: 80px;
+  position: relative;
+  left: 30px;
+  top: 40px;
+}
+#campo3{
+  background-image: url(/resources/images/services-section/icons/3.svg);
+  background-size: cover;
+  background-position:center;
+  background-repeat: no-repeat;
+  height: 80px;
+  width: 80px;
+  position: relative;
+  left: 30px;
+  top: 40px;
+}
+.projects-container >h3{
+}
+#services h2{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+}
+.service h3{
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #292E47;
+  margin: 27px;
+}
+.service p{
+width: 280px;
+height: 90px;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 150%;
+color: #6B708D;
+margin: 0px 27px 27px;
+}
+.service a{
+  margin:  0px 27px;
+}
 /* ------------------------------ Questions form ------------------------------ */
 
 /* Your CSS code goes here */
