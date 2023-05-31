@@ -8,15 +8,17 @@
 /* $maxWidthContainer:content 1320; */
 /* limpiamos margin y padding de nuestro projecto */
 * {
-  margin: 0;
+  margin: 0px auto;
   padding: 0;
   box-sizing: border-box;
 }
+
 /* asignamos font-family "Roboto" y sant-serif a nuestro projecto */
 body {
   font-family: "Roboto", sans-serif;
   max-width: 1440px;
   background-color: #F4F6FC;
+
 }
 
 
@@ -24,11 +26,12 @@ body {
 /* ------------------------------------------------------------------------ */
 /* ------------------------------ INDEX html ------------------------------ */
 .header {
- 
+
   height: 122px;
-  
+
 }
-.header__content{
+
+.header__content {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -38,114 +41,137 @@ body {
   width: 1100px;
 }
 
-.header__menu{
+.header__menu {}
 
-}
-
-.menu__icon{
+.menu__icon {
   position: static;
 }
-.menu__body {
 
+.menu__body {}
 
-}
 .menu__list {
-list-style-type: none; 
-display: flex; 
- justify-content: space-evenly; 
- 
-height: 22px;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
 
-font-style: normal;
-font-weight: 500;
-font-size: 17px;
-line-height: 130%;
+  height: 22px;
 
-color: #6B708D;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 130%;
+
+  color: #6B708D;
 
 }
+
 .menu-link {
-text-decoration: none;
-margin: 0px 14px; 
+  text-decoration: none;
+  margin: 0px 14px;
 }
+
 /* burger menu */
 .icon-menu {
   display: none;
 }
+
 .btn-blue {
   background-color: #072ac8;
   color: white;
   font-weight: 500;
   font-size: 1.05rem;
-  padding: 16px;
   text-decoration: none;
   display: flex;
-justify-content: center; 
-align-items: center;
-width: 150px;
-height: 52px;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 52px;
+  margin: 0px;
 
 }
-.logo{
-  
+
+.logo {
+
   /*  font-weight: 300;
   font-size: normal;  */
 }
-.menu__body{
-  
-}
-.navbar{
+
+.menu__body {}
+
+.navbar {
   margin: 0px 14px;
 }
-.clients{
-width: 1100px;
-height: 96px;
-display: flex;
-justify-content: space-evenly;
-align-items: center;
+
+.clients {
+  width: 1100px;
+  height: 96px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
 
 }
-.clients div{
+
+.clients div {
   width: 150px;
   text-align: center;
- 
+
 }
-.title{
-  margin: 100px 0 75px 0;
-}
+
+/* .title{
+  
+} */
 .title h2 {
   font-size: 2.5rem;
+  margin-top: 150px;
+  margin-bottom: 70px;
+  margin-inline: 170px;
 }
-.projects-container{
+
+.projects-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 1fr;
   grid-column-gap: 25px;
   grid-row-gap: 0px;
-  background-color:white;
- 
+  /* 
+  background-color:white; */
+  max-width: 1063px;
+  margin: auto;
 }
-.project{
-  
-width: 340px;
-height: 444px;
-left: 170px;
-top: 117px;
-overflow: hidden;
 
+.project {
 
+  width: 340px;
+  height: 444px;
+  left: 170px;
+  top: 117px;
+  overflow: hidden;
+  background-color: #FFFFFF;
 }
-.pageContainer{
+
+.project a {
+  margin: 0px 27px;
+  text-decoration: none;
+  color: #072AC8;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 150%;
+}
+
+.pageContainer {
   margin: 170px;
 
- 
+
 }
 
-.project img{
-width: 340px;
-height: 240px;
+.project img {
+  width: 340px;
+  height: 240px;
 }
-.opinion{
+
+.opinion {
   height: 622px;
   background-color: #292e47;
   background-image: url(/resources/images/testimonial-section/orbit.png);
@@ -159,42 +185,49 @@ height: 240px;
   justify-content: space-around;
   align-items: center;
   position: relative;
-background-position: 60%;
-margin-inline: -110px;
-width: 1320px;
-padding: 90px;
+  background-position: 60%;
+  margin-inline: auto;
+  width: 1320px;
+  padding: 90px;
 
 }
 
-.opinion h2{
+.opinion h2 {
   color: white;
   font-size: 2.1rem;
 }
-.opinion p{
+
+.opinion p {
   width: 55%;
   color: gold;
   font-size: 1.7rem;
 }
-.AutorDeOpinion{
-  
-     display: flex;
+
+.AutorDeOpinion {
+
+  display: flex;
   align-items: center;
   position: absolute;
   bottom: 100px;
-} 
-.AutorDeOpinion h4{
-  color: #A2D6F9;;
 }
-.AutorDeOpinion h5{
+
+.AutorDeOpinion h4 {
+  color: #A2D6F9;
+  ;
+}
+
+.AutorDeOpinion h5 {
   color: #F4F6FC;
 
 }
-.AutorDeOpinion img{
+
+.AutorDeOpinion img {
   width: 50px;
   height: 50px;
   border-radius: 50px;
   margin-right: 10px;
 }
+
 .memoji-2 {
   width: 150px;
   height: 150px;
@@ -204,6 +237,7 @@ padding: 90px;
   left: auto;
   bottom: auto;
 }
+
 .memoji-4 {
   width: 150px;
   height: 150px;
@@ -213,6 +247,7 @@ padding: 90px;
   left: auto;
   top: auto;
 }
+
 .memoji-3 {
   width: 150px;
   height: 150px;
@@ -222,6 +257,7 @@ padding: 90px;
   right: auto;
   top: auto;
 }
+
 .memoji-1 {
   width: 150px;
   height: 150px;
@@ -231,6 +267,7 @@ padding: 90px;
   right: auto;
   bottom: auto;
 }
+
 /* ------------------------------ Splash page ------------------------------ */
 
 /* Your CSS code goes here */
@@ -244,51 +281,79 @@ padding: 90px;
 /* Your CSS code goes here */
 
 /* ------------------------------ Header ------------------------------ */
-.heroImage{
+.heroImage {
   display: flex;
   flex-direction: row-reverse;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
+  width: 1440px;
+  height: 650px;
 }
 
-.herosection{
+.herosection {
   margin: 0 170px;
 }
-.imageHero{
+
+.imageHero {
   background-image: url(/resources/images/hero-section/hero-image.png);
   background-repeat: no-repeat;
-width: 508px;
-height: 632px;
-background-size: 100%;
-overflow: hidden;
+  width: 570px;
+  height: 650px;
+  background-size: 100%;
+  overflow: hidden;
+  position: relative;
 }
-.cards{
-  height: 193px;
-  width: 190px;
+
+.imageHero img {
+  width: 46%;
+
 }
-.card1{
-  position: absolute;
-width: 190px;
-height: 216px;
-left: 700px;
-top: 25px;
+
+.card1 {
+  position: relative;
+  top: -10px;
+  right: 20px;
 }
-.contentHero{
+
+.card2 {
+  position: relative;
+  left: 367px;
+  top: 191px;
+}
+
+.contentHero {
   width: 530px;
   height: 422px;
+  position: relative;
+  left: 170px;
 }
-.contentHero h1{
+
+.contentHero h1 {
   font-weight: 700;
   font-size: 60px;
   line-height: 70px;
   color: #292E47;
 }
-.parafoHero{
+
+.parafoHero {
   font-weight: 400;
-font-size: 20px;
-line-height: 150%;
-color: #6B708D;
+  font-size: 20px;
+  line-height: 150%;
+  color: #6B708D;
+  width: 435px;
+  height: 90px;
+  margin-bottom: 60px;
+  margin-top: 30px;
+  margin-inline: 0px;
 }
+
+.botonesHeroSection {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: center;
+}
+
 /* ------------------------------ Partners ------------------------------ */
 
 /* Your CSS code goes here */
@@ -302,46 +367,52 @@ color: #6B708D;
 /* Your CSS code goes here */
 
 /* ------------------------------ Services ------------------------------ */
-#servises{
+#servises {
   position: absolute;
-width: 1100px;
-height: 497px;
+  width: 1100px;
+  height: 497px;
 
 }
-.titleServises{
- margin: 100px 0px 75px 0px;
+
+.titleServises {
+  margin: 150px 170px 70px 170px;
+  color: #292E47;
+  max-width: 1100px;
 }
-.services-section{
+
+.services-section {
   display: flex;
   justify-content: space-around;
-width: 1100px;
-height: 380px;
+  width: 1100px;
+  height: 380px;
 
 }
-.service{
-background-color: #FFFFFF;
-display: grid;
-align-content: space-between;
-padding-bottom: 20px;
-width: 340px;
-height: 380px;
+
+.service {
+  background-color: #FFFFFF;
+  display: grid;
+  align-content: space-between;
+  padding-bottom: 20px;
+  width: 340px;
+  height: 380px;
 }
 
-#campo1{
+#campo1 {
   background-image: url(/resources/images/services-section/icons/1.svg);
   background-size: cover;
-  background-position:center;
+  background-position: center;
   background-repeat: no-repeat;
-    height: 80px;
+  height: 80px;
   width: 80px;
-position: relative;
+  position: relative;
   left: 30px;
   top: 40px;
 }
-#campo2{
+
+#campo2 {
   background-image: url(/resources/images/services-section/icons/2.svg);
   background-size: cover;
-  background-position:center;
+  background-position: center;
   background-repeat: no-repeat;
   height: 80px;
   width: 80px;
@@ -349,10 +420,11 @@ position: relative;
   left: 30px;
   top: 40px;
 }
-#campo3{
+
+#campo3 {
   background-image: url(/resources/images/services-section/icons/3.svg);
   background-size: cover;
-  background-position:center;
+  background-position: center;
   background-repeat: no-repeat;
   height: 80px;
   width: 80px;
@@ -360,34 +432,45 @@ position: relative;
   left: 30px;
   top: 40px;
 }
-.projects-container >h3{
-}
-#services h2{
+
+.projects-container {}
+
+#services h2 {
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
   line-height: 47px;
 }
-.service h3{
+
+.service h3 {
   font-weight: 500;
   font-size: 24px;
   line-height: 28px;
   color: #292E47;
   margin: 27px;
 }
-.service p{
-width: 280px;
-height: 90px;
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 150%;
-color: #6B708D;
-margin: 0px 27px 27px;
+
+.service p {
+  width: 280px;
+  height: 90px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  color: #6B708D;
+  margin: 0px 27px 27px;
 }
-.service a{
-  margin:  0px 27px;
+
+.service a {
+  margin: 0px 27px;
+  text-decoration: none;
+  color: #072AC8;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 150%;
 }
+
 /* ------------------------------ Questions form ------------------------------ */
 
 /* Your CSS code goes here */
@@ -410,13 +493,96 @@ margin: 0px 27px 27px;
 
 /* ------------------------------ Form ------------------------------ */
 
-/* Your CSS code goes here */
+#preguntas {
+  width: 1320px;
+  height: 500px;
+  background-color: #FFC600;
+  margin-top: 150px;
+  max-width: 1320px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.preguntas {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+}
+
+#preguntas p {
+  width: 139px;
+  height: 30px;
+  left: 481px;
+  top: 67px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  margin: 20px 0 50px;
+
+
+
+}
+
+.emailPreguntas a {
+  background: #072AC8;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 17px;
+  color: #FFFFFF;
+}
+
+.emailPreguntas {
+  display: flex;
+}
+
+#email-input {
+  background-image: url(/resources/images/newsletter/icon/mail.svg);
+  background-repeat: no-repeat;
+  background-position: 5%;
+  padding-left: 10%;
+  width: 393px;
+  height: 80px;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 150%;
+
+}
+
+#subscribeBtn {
+  width: 198px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20px;
+
+}
 
 /* ----------------------------------------------------------------------------- */
 /* ------------------------------ About html ------------------------------ */
 /* ----------------------------------------------------------------------------- */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 120px;
+  margin-bottom: 120px;
 
-/* Your CSS code goes here */
+
+}
+
+.logoBotom {
+  max-width: 1440px;
+}
+.logoBotom img{
+  width: 100px;
+  margin-bottom: 20px;
+  height: 30px;
+  left: 170px;
+  top: 30px;
+}
 
 /* --------------------------------------------------------------------------- */
 /* ------------------------------ MEDIA QUERIES ------------------------------ */
@@ -424,15 +590,17 @@ margin: 0px 27px 27px;
 
 /* ------------------------- Smaller than 990px (tablet) ------------------------- */
 @media (max-width: 990px) {
-  
+
   /* Your CSS code goes here */
 }
 
 /* ------------------------- Smaller than 766px (mobile) ------------------------- */
 @media (max-width: 766px) {
-  .class{ condicion:llave;
-    
+  .class {
+    condicion: llave;
+
   }
+
   /* Your CSS code goes here */
 }
 
