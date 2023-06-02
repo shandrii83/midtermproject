@@ -27,12 +27,13 @@
 
 @media (max-width:767) {
   .conteiner {
-    max-width: none;
+   max-width: none;
   }
-}
+  }
+
 .conteiner{
   padding: 15px;
-
+display: grid;
 }
 /* asignamos font-family "Roboto" y sant-serif a nuestro projecto */
 body {
@@ -129,7 +130,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: auto;
+  margin: 10rem;
 
 }
 
@@ -142,7 +143,6 @@ body {
   font-size: 2.5rem;
   margin-top: 150px;
   margin-bottom: 70px;
-  margin-inline: 170px;
 }
 
 .projects-container {
@@ -154,7 +154,9 @@ body {
   max-width: 1063px;
   margin: auto;
 }
-
+#projects{
+  margin-inline: 170px;
+}
 .project {
 
   width: 340px;
@@ -193,7 +195,6 @@ body {
   background-size: 91%;
   background-repeat: no-repeat;
   margin-top: 150px;
-  max-width: 1320px;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -302,7 +303,7 @@ body {
   display: flex;
   flex-direction: row-reverse;
   align-items: center;
-  justify-content: space-around;
+ 
   width: 1440px;
   height: 650px;
 }
@@ -342,7 +343,6 @@ body {
   width: 530px;
   height: 422px;
   position: relative;
-  left: 170px;
 }
 
 .contentHero h1 {
@@ -402,6 +402,7 @@ body {
   justify-content: space-around;
   width: 1100px;
   height: 380px;
+  margin-inline: 170px;
 
 }
 
@@ -448,7 +449,6 @@ body {
   border-radius: 100px;
   margin: 34px 0 0 34px;
 }
-.projects-container {}
 
 #services h2 {
   font-style: normal;
@@ -581,9 +581,9 @@ body {
 /* ----------------------------------------------------------------------------- */
 .footer {
   display: flex;
-  justify-content: space-between;
   margin-top: 120px;
   margin-bottom: 120px;
+  margin-inline: initial;
 }
 
 .logoBotom {
