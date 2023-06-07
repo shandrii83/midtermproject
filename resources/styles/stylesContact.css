@@ -239,6 +239,7 @@ textarea {
 .footer {
     display: flex;
     width: 1440px;
+    margin-top: 80px;
 }
 
 .footerLinks {

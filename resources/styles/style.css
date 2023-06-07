@@ -527,7 +527,71 @@ body {
 
 /* ----------------------------------------------------------------------------- */
 /* ------------------------------ CONTACT-US html ------------------------------ */
-/* ----------------------------------------------------------------------------- */
+
+
+.mainSection {
+  width: 1100px;
+  margin-top: 140px;
+}
+
+.img-container {
+  margin-top: 80px;
+}
+
+.img-container img {
+  height: 444px;
+  width: 100%;
+}
+
+.txt-container {
+  margin-top: 80px;
+  width: 1100px;
+  height: 420px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  color: #6B708D;
+}
+
+.txt-container p {
+  margin: 0px 0px 10px;
+}
+
+.txt-title h1 {
+  height: 70px;
+  left: 170px;
+  top: 6px;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 70px;
+  color: #292E47;
+}
+
+.subtitle {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.subtitle h2 {
+  width: 550px;
+  height: 28px;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #6B708D;
+}
+
+.subtitle h3 {
+  width: 550px;
+  height: 30px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  text-align: right;
+  color: #292E47;
+  text-align: right;
+}
 
 /* ------------------------------ Form ------------------------------ */
 
@@ -675,18 +739,24 @@ body {
 /* Your CSS code goes here */
 
 /* ------------------------------ Sticky scroll bar ------------------------------ */
-#scroolToTop {
+/* creamos estilos para el boton "scrollToTop" */
+.scrollToTop {
   background-color: #292E47;
   color: #F4F6FC;
   text-decoration: none;
-  bottom: 0px;
+  bottom: 0;
   font-size: 50px;
   position: fixed;
   text-align: center;
   left: 0;
   width: 100%;
-
-  /* display: none;  */
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out;
+  pointer-events: auto;
 }
 
-/* Your CSS code goes here */
+/* utilisamos la clase .hidden para cambiar la transparencia y disponibilidad del botón según la posición de desplazamiento. */
+.scrollToTop.hidden {
+  opacity: 0;
+  pointer-events: none;
+}

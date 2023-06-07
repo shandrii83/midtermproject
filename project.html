@@ -1,12 +1,152 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Project Page</title>
+    <link rel="stylesheet" href="/resources/styles/style.css">
 </head>
+
 <body>
-    
+    <div id="scroolToTop"></div>
+    <div class="conteiner">
+        <header class="header">
+            <div class="header__content _container">
+
+                <div class="logo"><a href="/index.html"><img src="/resources/images/logos/circle.svg"
+                            alt="logo de Circle Agency"></a></div>
+                <div class="header__menu menu">
+
+                    <!-- asignamos classe para "burger" -->
+                    <div class="menu__icon icon-menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <nav class="navbar">
+                        <ul class="menu__list">
+                            <li><a href="#" class="menu-link">Home</a></li>
+                            <li><a href="/project.html" class="menu-link">Project Page-Simple</a></li>
+                            <li><a href="" class="menu-link">Projects</a></li>
+                            <li><a href="" class="menu-link">Services</a></li>
+                            <li><a href="/about-us.html" class="menu-link">About</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div id="top-contact-btn" class="btn-blue">
+                    <a class="btn-blue" href="/contact-us.html">Contact Us</a>
+                </div>
+            </div>
+        </header>
+        <section class="mainSection">
+            <div class="txt-title">
+                <h1>Simplifyy</h1>
+                <div class="subtitle">
+                    <h2>UI Design &amp; App Development</h2>
+                    <h3>Completed on 2/2/22</h3>
+                </div>
+                <div class="img-container">
+                    <img src="./resources/images/projects-section/1.jpg" alt="">
+                </div>
+                <div class="txt-container">
+                    <p>
+                        Simplify is lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit. Sed feugiat faucibus sem, id vulputate justo ornare non.
+                        Nullam et vehicula sem. Pellentesque bibendum massa non nisl
+                        posuere cursus. Aliquam ac eros pretium neque consequat facilisis.
+                        Ut sit amet justo varius ex ultrices fringilla. Sed vel turpis
+                        fringilla ante gravida vestibulum. Etiam a sollicitudin leo. Nunc
+                        metus lectus, lacinia ut arcu quis, pretium congue lacus.
+                    </p>
+                    <p>
+                        Aliquam blandit varius metus, in mattis orci convallis sit amet.
+                        Fusce et sem ac velit placerat ultrices in id dolor. Sed eget
+                        auctor metus. Sed suscipit fringilla lectus, a maximus justo
+                        bibendum a. Donec et pellentesque nisl, vitae tempus lorem. Sed
+                        efficitur cursus rhoncus. Duis placerat nisi quis mi tincidunt,
+                        sit amet tincidunt urna convallis. Nam et sagittis felis.
+                        Pellentesque placerat orci sodales nisi convallis ultrices. Nunc
+                        posuere neque eu mi imperdiet ullamcorper. Praesent tempor
+                        convallis rutrum. Vestibulum dignissim pellentesque eros in
+                        placerat. Etiam at nisi quis quam sollicitudin vehicula sit amet
+                        vel mi.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <div class="title">
+                <h2>Other Projects</h2>
+            </div>
+            <div class="projects-container">
+                <div id="project1" class="project">
+                    <img src="./resources/images/projects-section/1.jpg" alt="">
+                    <h3>Simplify</h3>
+                    <p>UI Design & App Development</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div id="project2" class="project">
+                    <img src="./resources/images/projects-section/2.jpg" alt="">
+                    <h3>Dashcoin</h3>
+                    <p>Web Development</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div class="project">
+                    <img src="./resources/images/projects-section/3.jpg" alt="">
+                    <h3>Vectorify</h3>
+                    <p>User Experience Design</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </section>
+        <section id="preguntas">
+            <div class="preguntas">
+                <h2>Do you have any questions?</h2>
+            </div>
+            <p>Let us help you!</p>
+            <div class="emailPreguntas">
+                <input id="email-input" type="text" placeholder="Enter your email">
+                <a id="subscribeBtn" href="#">Subscribe</a>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="logoFooter">
+                <div class="logoBotom">
+                    <img src="/resources/images/logos/circle.svg" alt="Circle Agency Logo">
+                </div>
+                <div class="direction">
+                    <p>2972 Westheimer Rd. Santa Ana,<br>Illinois 85486</p>
+                </div>
+            </div>
+            <div class="linksFooter">
+                <a href="#">
+                    <div>Team</div>
+                </a>
+                <a href="#">
+                    <div>Services</div>
+                </a>
+                <a href="#">
+                    <div>About Us</div>
+                </a>
+                <a href="#">
+                    <div>Press</div>
+                </a>
+                <a href="#">
+                    <div>Projects</div>
+                </a>
+                <a href="#">
+                    <div>Privacy Policy</div>
+                </a>
+            </div>
+        </footer>
+        <div><a href="#top" id="scrollToTop" class="scrollToTop">Scroll to top ↑</a></div>
+        <script src="/resources/js/index.js"></script>
+    </div>
+
 </body>
+
 </html>
