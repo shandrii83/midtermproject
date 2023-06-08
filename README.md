@@ -1,4 +1,3 @@
-
 <!-- Estructura -->
 <!--
 *** Estoy usando enlaces de estilo "referencia" de markdown para la legibilidad.
@@ -26,14 +25,6 @@
     <li>
       <a href="#acerca-del-proyecto">Acerca del Proyecto</a>
       <ul>
-        <li>Lenguajes de programación utilizados:
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-        </li>
-        <li><a href="#construido-con">Construido Con</a></li>
-        <li><a href="#construido-con">Construido Con</a></li>
-        <li><a href="#construido-con">Construido Con</a></li>
         <li><a href="#construido-con">Construido Con</a></li>
       </ul>
     </li>
@@ -79,17 +70,24 @@ En resumen, la sección "sobre el proyecto" es una excelente manera de brindar a
 
 ### Construido Con
 
-La sección "construido con" en un archivo README es una sección que proporciona información sobre las tecnologías y herramientas utilizadas para desarrollar el proyecto.
-
 En esta sección se puede incluir información como:
 
-- Lenguajes de programación utilizados
-- Frameworks y bibliotecas utilizadas
-- Herramientas de desarrollo (IDE, control de versiones, etc)
-- Servicios en la nube utilizados (si corresponde)
-- Otros recursos o tecnologías relacionadas con el proyecto.
+- Lenguajes de programación utilizados:
+HTML
+CSS
+JavaScript 
 
-En resumen, la sección "construido con" es una excelente manera de brindar a los usuarios y contribuidores una compresión de las tecnologías y herramientas utilizadas para desarrollar el proyecto, esto ayuda a entender mejor el proyecto y a los desarrolladores a contribuir de manera efectiva.
+- Bibliotecas utilizadas: 
+biblioteca de fuentes de google: url("https://fonts.googleapis.com/css2?family=Cinzel&family=Roboto:wght@100;300;400;500&display=swap");
+
+
+- Herramientas de desarrolo: Visual Studio Code
+
+
+- Otros recursos o tecnologías relacionadas con el proyecto.:
+API url('https://raw.githubusercontent.com/ironhack-jc/mid-term-api/main/projects')
+
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
