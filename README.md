@@ -71,8 +71,6 @@ En resumen, la sección "sobre el proyecto" es una excelente manera de brindar a
 ### Construido Con
 
 - Lenguajes de programación utilizados:
-
-
  >HTML
  > CSS
  > JavaScript 
