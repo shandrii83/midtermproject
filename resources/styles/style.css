@@ -1,39 +1,43 @@
-/*  Connectamos Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Cinzel&family=Roboto:wght@100;300;400;500&display=swap");
 
 :root {
   --primary: #072ac8;
 }
 
-/* $maxWidthContainer:content 1320; */
-/* limpiamos margin y padding de nuestro projecto */
 * {
   margin: 0px auto;
   padding: 0px;
   box-sizing: border-box;
 }
 
-@media (max-width:1440) {
-  .conteiner {
-    max-width: 970;
+.container {
+  max-width: 100%;
+
+}
+
+
+@media (max-width:767px) {
+  .container {
+    max-width: 450px;
   }
 }
 
-@media (max-width:992) {
-  .conteiner {
-    max-width: 750;
+@media (max-width:992px) {
+  .container {
+    max-width: 750px;
   }
 }
 
-@media (max-width:767) {
-  .conteiner {
-    max-width: none;
+@media (max-width:1440px) {
+  .container {
+    max-width: 970px;
   }
 }
 
-.conteiner {
+.container {
   padding: 15px;
   display: grid;
+ 
 }
 
 /* asignamos font-family "Roboto" y sant-serif a nuestro projecto */
@@ -64,7 +68,9 @@ body {
   width: 1110px;
 }
 
-.header__menu {}
+.header__menu {
+  width: -webkit-fill-available;
+}
 
 .menu__icon {
   position: static;
