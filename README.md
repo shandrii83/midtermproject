@@ -70,19 +70,19 @@ En resumen, la sección "sobre el proyecto" es una excelente manera de brindar a
 
 ### Construido Con
 
-- Lenguajes de programación utilizados:<br>
-HTML<br>
-CSS<br>
+- Lenguajes de programación utilizados:<br/>
+HTML<br/>
+CSS<br/>
 JavaScript 
 
 - Bibliotecas utilizadas: 
-biblioteca de fuentes de google:<br> url("https://fonts.googleapis.com/css2?family=Cinzel&family=Roboto:wght@100;300;400;500&display=swap");
+biblioteca de fuentes de google:<br/> url("https://fonts.googleapis.com/css2?family=Cinzel&family=Roboto:wght@100;300;400;500&display=swap");
 
 
-- Herramientas de desarrolo:<br> Visual Studio Code
+- Herramientas de desarrolo:<br/> Visual Studio Code
 
 
-- Recursos API:<br>
+- Recursos API:<br/>
 url('https://raw.githubusercontent.com/ironhack-jc/mid-term-api/main/projects')
 
 
