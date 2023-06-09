@@ -52,18 +52,30 @@
 
 <img src="./resources/images/readMe/screenshot.png" alt="Logo" width="100%" height="50%">
 
-- Una descripción breve del proyecto y su propósito
-Este sitio está basado en lenguaje de marcado de hipertexto <img src="D:\IronHack\Projecto1\resources\images\HTML5_logo_and_wordmark.svg.png" width="80" height="80" >, Hojas de Estilo en Cascada <img src="D:\IronHack\Projecto1\resources\images\1452px-CSS3_logo_and_wordmark.svg.png" width="80" height="80">CSS y lenguaje de programación multiparadigma - <img src="D:\IronHack\Projecto1\resources\images\javascript_logo.png"width="80" height="80">
+- Una descripción breve del proyecto y su propósito:
+  >Tengo que crar una pagina Web de ujna agencia de diseno utilisando mis conosimientos a esta hora. 
+     - Este sitio está basado en lenguaje de marcado de hipertexto
+     - Hojas de Estilo en Cascada CSS
+     - lenguaje de programación multiparadigma -JavaScript
 
 - Tecnologías utilizadas
-
+   - Api, Fetch
+   - fuentes de google
+   - Html
+   - Css
+   - JavaScript
+   - Figma
+   - Vercel
 - Funcionalidades principales
-- Instrucciones de instalación y configuración
-- Enlaces a documentación adicional o recursos relacionados con el proyecto
-- Licencia del proyecto
-- Contribuciones de las personas en el proyecto.
+   - Construirás un sitio web para una empresa ficticia de diseño web. Esto incluye algunas páginas:
 
-En resumen, la sección "sobre el proyecto" es una excelente manera de brindar a los usuarios y contribuidores una visión general del proyecto y proporcionarles toda la información necesaria para comenzar a trabajar con él.
+     - una página de inicio (home)
+     - una página de proyecto y
+     - una página de contacto con un formulario.
+     - Añadir navegación entre las páginas
+     - Hacer que todos los campos del formulario de contacto sean obligatorios antes de poder enviarlo.
+     - (Bonus) Añadir animaciones a las diferentes secciones, como las tarjetas de “proyectos recientes”
+- Instrucciones de instalación y configuración
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -98,33 +110,151 @@ En resumen, la sección "sobre el proyecto" es una excelente manera de brindar a
 #### Backlog
 
 - [ ] Ej - Tarea a completar y mover a su respectivo dia de ejecucion
-
-#### Day One
-
-#### Day One
-
-###### Lunes 23, Enero 2023
-
-- [ ] Tarea no completada
 - [x] Tarea Completada
-- [ ] Ej - Crear section "projects" en html
-- [x] Ej - Crear section "projects" en html
+
+
+
+#### Day One
+
+###### Martes 23, mayo 2023
+
+- [x] Analizar estructura de projecto
+- [x] Trabago co la estructura de projecto
 
 #### Day Two
 
-###### Martes 24, Enero 2023
+###### Miercoles 24, mayo 2023
+
+- [x] Crear secciones de pagina principal
+- [x] Anadamos estilos para todo <body> 
+
 
 #### Day Three
 
-###### Miercoles 25, Enero 2023
+###### Jueves 25,  mayo 2023
+
+- [x] Ajustar tamano de los secciones utilizando "CSS"
+- [x] Comprobar si coinside margin y padding con projecto en "FignaS"
 
 #### Day Four
 
-###### Jueves 26, Enero 2023
+###### Viernes 26,  mayo 2023
+
+
+- [x] Trabajo con ceccion "nav-bar"
+- [x] Trabajo con ceccion "header"
 
 #### Day Five
 
-###### Viernes 27, Enero 2023
+###### Sabado 27, mayo 2023
+
+- [x] Trabajo con ceccion "projectos"
+- [x] Trabajo con ceccion "opinion"
+
+#### Day Six
+
+###### Domingo 28, mayo 2023
+
+- [x] Trabajo con ceccion "projectos"
+- [x] Trabajo con ceccion "preguntas"
+
+#### Day Seven
+
+###### Lunes 29, mayo 2023
+
+- [x] Trabajo con ceccion "footer"
+- [x] Trabajo con ceccion "clientes"
+
+#### Day Eight
+
+###### Martes 30, mayo 2023
+
+- [x] Vincular todos los imagenes y enlaces de la pagina
+- [x] Ajustar el tamano de lo imagenes
+
+
+
+
+#### Day Nine
+
+###### Miercoles 31, mayo 2023
+
+- [x] Comprobar si estan vinculados todas paginas y hojas de estilo a pagina principal
+- [x] Revisar y quitar codigo que no utilisando en pagina pricipal
+
+#### Day Ten
+
+###### Jueves 1, Junio 2023
+
+- [x] Empesar trabajo con pagina de projectos
+- [x] Trabajo con la estructura de la pagina
+
+#### Day Eleven 
+
+###### Viernes 2, Junio 2023
+
+- [x] Crear section "navBar" en  html
+- [x] Crear section "projectos" en html
+- [x] Crear section "header" en html
+- [x] Crear section "footer" en html
+- [x] Crear section "clientes" en html
+ 
+#### Day Thirteen
+
+###### Sabado 3, Junio 2023
+
+- [x] Analizar estructura de pagina de contactos
+- [x] Crear seccion de navigacion
+- [x] Crear seccion de contactos
+- [x] Crear seccion "footer"
+
+#### Day Fourteen
+
+###### Domingo 4, Junio 2023
+
+- [x] Anadir informacion a seccion "projectos" utilizando metodo "Fetch" 
+- [x] Hacer que informacion de "projectos" se cambia, cuando renovamos la pagina
+
+#### Day Fifteen
+
+###### Lunes 5, Junio 2023 2023
+
+- [x] Anadir botton "scroll tu top" a nuestra pagina
+- [x] Hacemos que nuestro botton se desaparese cuando estamos en inicio de nuestra pagina
+
+#### Day Sixteen
+
+###### Martes 6, Junio 2023
+
+
+- [x] Cargar nuesro projecto a "Vercel"
+- [x] Comprobar codio y quitar que no utilisamos
+
+#### Day Seventeen
+
+###### Miercoles 7, Junio 2023
+
+
+- [x] Crear "readme.md"
+- [x] Trabajo con "readmy.md"
+
+#### Day Eighteen
+
+###### Jueves 8, Junio 2023
+
+
+- [x]Analizar el projecto (que puedo mejorar, que problemas tengo, como he roseelvo las problemas)
+
+#### Day Nineteen
+
+###### Viernes 9, Junio 2023
+
+
+- [] trabajar con presentacion
+- [] trabajar con presentacion
+
+#### Day Twenty
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -132,20 +262,16 @@ En resumen, la sección "sobre el proyecto" es una excelente manera de brindar a
 
 ## Acerca
 
-La sección "sobre mí" en un archivo README es una sección que proporciona información sobre el desarrollador o equipo detrás del proyecto.
-
-En esta sección se puede incluir información como:
-
-- Nombre y datos de contacto del desarrollador o equipo.
-- Información sobre experiencia laboral o académica relacionada con el proyecto.
+- Nombre y datos de contacto del desarrollador o equipo:  
+   >Andrey Sharmar. 
+- Información sobre experiencia laboral o académica relacionada con el proyecto:
+   > Actualmente soy estudiante en "Iron Hack: Boot Camp y estoy trabajando en mi primer proyecto.
 - Enlaces a perfiles en redes sociales o sitios web personales.
-- Otra información relevante que el desarrollador o equipo desee compartir.
+   > 
+- Correo electronico:
+   >[sharmarandrey@gmail.com]
 
-En resumen, la sección "sobre mí" es una excelente manera de brindar a los usuarios y contribuidores una idea de quién está detrás del proyecto y cómo pueden ponerse en contacto con ellos si tienen preguntas o comentarios. Es una buena manera de establecer una conexión con la comunidad de desarrolladores y una forma de mostrar la transparencia en el proyecto.
-
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
-
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Project Link: [https://github.com/shandrii83/midtermproject.git](https://github.com/shandrii83/midtermproject.git)
 
 Presentation Link: [Insert here your presentation link](insert-link-here)
 
@@ -155,33 +281,23 @@ Presentation Link: [Insert here your presentation link](insert-link-here)
 
 ## agradecimientos
 
-La sección "agradecimientos" en un archivo README es una sección que proporciona reconocimiento a las personas o instituciones que ayudaron en el desarrollo del proyecto.
+- Quiero expresar mi agradecimiento a todo el personal de boot camp Iron Hack y en particular al profesor Diego Zita por el apoyo brindado en el proceso de aprendizaje y adquiriendo las habilidades necesarias para crear este proyecto
 
-En esta sección se puede incluir información como:
-
-- Agradecimientos específicos a personas que ayudaron en el desarrollo del proyecto.
-- Agradecimientos a instituciones o organizaciones que proporcionaron apoyo financiero o recursos.
-- Enlaces a proyectos o recursos relacionados que fueron útiles para el desarrollo del proyecto.
-
-En resumen, la sección "agradecimientos" es una excelente manera de agradecer a las personas o instituciones que ayudaron en el desarrollo del proyecto. Esta sección también puede ser útil para dar crédito a los recursos o proyectos relacionados que fueron útiles durante el desarrollo.
-
-- [Icon Libraries](insert-link-here)
-- [Google Font Libraries](insert-link-here)
+- [Icon Libraries](/resources/images/logos/)
+- [Google Font Libraries](https://fonts.googleapis.com/css2?family=Cinzel&family=Roboto:wght@100;300;400;500&display=swap)
+- [Image Libraries](/resources/images/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Desafío Técnico
 
-La sección "desafío técnico" aunque no es convencional en un proyecto profesional, en nuestro curso dependemos de esta sección en un archivo README para proporcionar información sobre los desafíos técnicos que se enfrentaron durante el desarrollo del proyecto.
+- Durante el desarrollo del proyecto tuve varioa problemas tecnicos:
+   - 3 dias luchando con el Fetch (resolviendo dessues mi trabajo con literatura tecnica y con respuestas del chat **GPT** )
+   - no ajuste la pagina sobre criterios "mobile first", con este motivo tuve problemas con ubicacion de objectos en la pagina. En los mis proximos projectos siempre voy a utilisar el principo **"Mobile first"** para crear paginas WEB
+   - Tuve problema con el botton **"Scrool to top"** - no podria ocultar este buton, cuando la pagina esta arriba(resolviendo)
 
-En esta sección se puede incluir información como:
 
-- Problemas técnicos específicos que se encontraron durante el desarrollo del proyecto.
-- Soluciones implementadas para superar estos desafíos.
-- Aspectos del proyecto que aún son un desafío o que requieren mejora continua.
-- Recomendaciones para futuros desarrolladores que trabajen en el proyecto.
-
-En resumen, la sección "desafío técnico" es una excelente manera de brindar a los usuarios y contribuidores una idea de los desafíos técnicos que se enfrentaron durante el desarrollo del proyecto, y cómo se abordaron. Esta sección también puede ser útil para futuros desarrolladores que trabajen en el proyecto, ya que les brinda información valiosa sobre problemas potenciales y soluciones para superarlos.
+*Mientras trabajaba en este proyecto, descubrí a qué temas debería prestar más atención y qué temas no me causan ningún problema, por ejemplo, me di cuenta de que necesito mejorar mi conocimiento en el trabajo con animación y que, en general, necesito practica más porque el conocimiento viene con la práctica*
 
 ## Grande Error
 
@@ -190,8 +306,7 @@ La sección "grande error" en un archivo README es una sección opcional que pro
 En esta sección se puede incluir información como:
 
 - Descripción detallada del error cometido.
-- Consecuencias del error.
-- Soluciones implementadas para corregir el error.
-- Lecciones aprendidas y recomendaciones para evitar errores similares en el futuro.
+Tengo problema con el *Burger-menu*. Puedo hacer que menu se oculto Resulta que desaparece el menú de navegación pero no aparece el menú de hamburguesas, es decir, no aparece el icono en sí. 
 
-En resumen, la sección "grande error" es una forma de ser transparente sobre los errores cometidos durante el desarrollo del proyecto. También puede ser útil para otros desarrolladores que trabajen en el proyecto, ya que les brinda información valiosa sobre problemas potenciales y cómo se abordaron.
+
+*En teoria puedo resolver todos los problemas que encuentro durante desarollo de mi projecto, perro necesito mas tiempo para eso.*
