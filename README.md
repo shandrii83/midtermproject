@@ -53,9 +53,9 @@
 
 - Una descripción breve del proyecto y su propósito:
   >Tengo que crear una pagina Web de una agencia de diseno utilisando mis conosimientos a esta hora. 
-     - Este sitio está basado en lenguaje de marcado de hipertexto
-     - Hojas de Estilo en Cascada  <img src="D:\IronHack\Projecto1\resources\images\1452px-CSS3_logo_and_wordmark.svg.png" width="80" height="80">
-     - lenguaje de programación multiparadigma -JavaScript
+     - Este sitio está basado en lenguaje de marcado de hipertexto **HTML**
+     - Hojas de Estilo en Cascada  **Css**
+     - lenguaje de programación multiparadigma **JavaScript**
 
 - Tecnologías utilizadas
    - Api, Fetch
@@ -81,9 +81,9 @@
 ### Construido Con
 
 - Lenguajes de programación utilizados:
- >HTML
- > CSS
- > JavaScript 
+ >**HTML**
+ > **CSS**
+ > ***JavaScript**
 
 - Bibliotecas utilizadas: 
 > biblioteca de fuentes de google:
@@ -257,14 +257,12 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- Acerca de mi -->
-
 ## Acerca
 
 - Nombre y datos de contacto del desarrollador o equipo:  
-   >Andrey Sharmar. 
+   >*Andrii Sharmar*. 
 - Información sobre experiencia laboral o académica relacionada con el proyecto:
-   > Actualmente soy estudiante en "Iron Hack: Boot Camp y estoy trabajando en mi primer proyecto.
+   > Actualmente soy estudiante en ***"Iron Hack"*** Boot Camp y estoy trabajando en mi primer proyecto.
 - Enlaces a perfiles en redes sociales o sitios web personales.
    > 
 - Correo electronico:
@@ -275,8 +273,6 @@ Project Link: [https://github.com/shandrii83/midtermproject.git](https://github.
 Presentation Link: [Insert here your presentation link](insert-link-here)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- ACKNOWLEDGMENTS -->
 
 ## agradecimientos
 
