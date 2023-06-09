@@ -53,7 +53,7 @@
 <img src="./resources/images/readMe/screenshot.png" alt="Logo" width="100%" height="50%">
 
 - Una descripción breve del proyecto y su propósito
-Este sitio está basado en lenguaje de marcado de hipertexto ![HTNL](/resources/images/HTML5_logo_and_wordmark.svg.png), Hojas de Estilo en Cascada CSS y lenguaje de programación multiparadigma - JavaScript
+Este sitio está basado en lenguaje de marcado de hipertexto <img src="D:\IronHack\Projecto1\resources\images\HTML5_logo_and_wordmark.svg.png" width="80" height="80" >, Hojas de Estilo en Cascada <img src="D:\IronHack\Projecto1\resources\images\1452px-CSS3_logo_and_wordmark.svg.png" width="80" height="80">CSS y lenguaje de programación multiparadigma - <img src="D:\IronHack\Projecto1\resources\images\javascript_logo.png"width="80" height="80">
 
 - Tecnologías utilizadas
 
