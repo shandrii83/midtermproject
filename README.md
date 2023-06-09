@@ -54,7 +54,7 @@
 - Una descripción breve del proyecto y su propósito:
   >Tengo que crear una pagina Web de una agencia de diseno utilisando mis conosimientos a esta hora. 
      - Este sitio está basado en lenguaje de marcado de hipertexto
-     - Hojas de Estilo en Cascada  <img src="https://cloud.githubusercontent.com/assets/screenshot.jpg" width="80" height="80">
+     - Hojas de Estilo en Cascada  <img src="D:\IronHack\Projecto1\resources\images\1452px-CSS3_logo_and_wordmark.svg.png" width="80" height="80">
      - lenguaje de programación multiparadigma -JavaScript
 
 - Tecnologías utilizadas
