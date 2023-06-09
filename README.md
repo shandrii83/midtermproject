@@ -52,12 +52,11 @@
 
 <img src="./resources/images/readMe/screenshot.png" alt="Logo" width="100%" height="50%">
 
-La sección "sobre el proyecto" en un archivo README es una sección importante que proporciona información general sobre el objetivo y la funcionalidad del proyecto.
-
-En esta sección se puede incluir información como:
-
 - Una descripción breve del proyecto y su propósito
+Este sitio está basado en lenguaje de marcado de hipertexto ![HTNL](/resources/images/HTML5_logo_and_wordmark.svg.png), Hojas de Estilo en Cascada CSS y lenguaje de programación multiparadigma - JavaScript
+
 - Tecnologías utilizadas
+
 - Funcionalidades principales
 - Instrucciones de instalación y configuración
 - Enlaces a documentación adicional o recursos relacionados con el proyecto
