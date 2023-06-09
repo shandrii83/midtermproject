@@ -1,10 +1,9 @@
-<!-- Estructura -->
-<!--
+<!-- 
 *** Estoy usando enlaces de estilo "referencia" de markdown para la legibilidad.
 *** Los enlaces de referencia están encerrados en corchetes [ ] en lugar de paréntesis ( ).
 *** Vea la parte inferior de este documento para la declaración de las variables de referencia
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
+--> 
 
 <!-- Por favor no borrar este elemeno, ayuda al elemento "back to top" -->
 
@@ -53,9 +52,9 @@
 <img src="./resources/images/readMe/screenshot.png" alt="Logo" width="100%" height="50%">
 
 - Una descripción breve del proyecto y su propósito:
-  >Tengo que crar una pagina Web de ujna agencia de diseno utilisando mis conosimientos a esta hora. 
+  >Tengo que crear una pagina Web de una agencia de diseno utilisando mis conosimientos a esta hora. 
      - Este sitio está basado en lenguaje de marcado de hipertexto
-     - Hojas de Estilo en Cascada CSS
+     - Hojas de Estilo en Cascada  <img src="https://cloud.githubusercontent.com/assets/screenshot.jpg" width="80" height="80">
      - lenguaje de programación multiparadigma -JavaScript
 
 - Tecnologías utilizadas
